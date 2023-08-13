@@ -1,0 +1,126 @@
+:root {
+	--light: #EEE;
+	--grey: #888;
+	--dark: #313154;
+	--danger: #ff5b57;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'aria', sans-serif;
+}
+
+
+body {
+	background: var(--light);
+	color: var(--dark);
+}
+
+
+.addTodoBtn{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #313154;
+    background-color: #eee;
+    color:gray;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+
+.actions{
+    display: inline;
+    margin-left: 1px;
+}
+
+.actions button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #313154;
+    background-color: #eee;
+    color:gray;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.actions button:hover{
+    color:black;
+    background-color: #e91620;
+}
+
+.dolist{
+    /* border:1px solid black; */
+    max-width:495px;
+    /* height:380px; */
+    /* border-radius: 15px; */
+    margin:0 auto;
+}
+h1{
+    /* margin-top:3rem; */
+    /* margin-bottom: 5rem; */
+    background-color: rgb(234, 243, 243);
+    max-width: 365px;
+    margin: 0 auto
+}
+
+.input-check {
+    margin-top:3px;
+    margin-right:1px;
+	width: 18px;
+	height: 18px;
+}
+
+.input-tasks{
+    height:30px;
+    width: 362px;
+    border-radius: 4px;
+    font-size: 17px;
+    border-color: #313154; 
+    text-align: center;
+}
+section {
+	margin-top: 2.5rem;
+	margin-bottom: 0.2rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5em;
+}
+
+.todo-content .done {
+	text-decoration: line-through;
+    background-color: gray;
+    pointer-events: none;
+} 
+
+.todo-item{
+    max-width:450px;
+    background-color: #dfe3ea;
+    height: fit-content;
+    align-items: center;
+    padding:5px 2px;
+    margin-top:2px;
+    margin:0 auto;
+}
+
+.todo-content{
+    display:inline;
+    width: 300px;
+    height: 40px;
+}
+
+.todo-content input[type="text"]{
+    height:30px;
+    width: 350px;
+    border-radius: 4px;
+    font-size: 17px;
+    border-color: #313154;
+}
+.topLabel{
+    margin-top:12px
+}
